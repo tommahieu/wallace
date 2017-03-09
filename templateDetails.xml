@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN"
+        "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.6" type="template" client="site">
+    <name>wallace</name>
+    <creationDate>12 February 2017</creationDate>
+    <author>Tom Mahieu</author>
+    <authorEmail>tom@mahieu.org</authorEmail>
+    <authorUrl>http://www.wallacepipeband.be</authorUrl>
+    <copyright>Copyright (C) 2017 Wallace Pipe Band. All rights reserved.</copyright>
+    <license>TBD</license>
+    <version>0.0.2</version>
+
+    <files>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+    <positions>
+        <position>menu-left</position>
+        <position>menu-right</position>
+        <position>breadcrumb</position>
+        <position>left</position>
+        <position>right</position>
+        <position>top</position>
+        <position>user1</position>
+        <position>user2</position>
+        <position>user3</position>
+        <position>user4</position>
+        <position>bottom</position>
+        <position>footer</position>
+    </positions>
+</extension>

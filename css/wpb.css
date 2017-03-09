@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.clear {
+    clear: both;
+    visibility: hidden;
+}
+
+.navbar + .container {
+    padding-top: 50px;
+}
+
+.buttonrow {
+    text-align: right;
+}
+
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+h1, h2.home {
+    text-align: center;
+}
+
+h2.home {
+    margin-bottom: 20px;
+}
+
+.navigation-box {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navigation-box a,  .navigation-box a:link, .navigation-box a:active, .navigation-box a:visited, .navigation-box a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation-box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.navigation-box img {
+    float: left;
+    max-width: 50%;
+    margin-right: 5px;
+}
+
+.navigation-box h3 {
+    margin: 0 0 10px 0;
+    padding-top: 1ex;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navigation-box p {
+    margin: 20px 5px 0 5px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #222;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.footer1 {
+    text-align: right;
+    color: #9d9d9d;
+}
+
+/* Forms:  right align spacers */
+form .spacer {
+    text-align: right;
+}
+
+input + label {
+    padding-left: 10px;
+}
