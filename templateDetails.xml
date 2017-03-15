@@ -22,13 +22,7 @@
         <position>menu-left</position>
         <position>menu-right</position>
         <position>breadcrumb</position>
-        <position>left</position>
-        <position>right</position>
         <position>top</position>
-        <position>user1</position>
-        <position>user2</position>
-        <position>user3</position>
-        <position>user4</position>
         <position>bottom</position>
         <position>footer</position>
     </positions>
