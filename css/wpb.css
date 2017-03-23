@@ -13,6 +13,10 @@
     text-align: right;
 }
 
+#system-message-container {
+    margin-top: 2ex;
+}
+
 .carousel {
     margin-left: auto;
     margin-right: auto;

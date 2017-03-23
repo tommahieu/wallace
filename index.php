@@ -48,9 +48,10 @@ $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/ie10-vi
 
 <jdoc:include type="modules" name="top"/>
 <div class="container">
+    <jdoc:include type="message" />
     <jdoc:include type="component"/>
-    <jdoc:include type="modules" name="bottom"/>
 </div>
+<jdoc:include type="modules" name="bottom"/>
 <div class="footer">
     <div class="container-fluid">
         <jdoc:include type="modules" name="footer"/>

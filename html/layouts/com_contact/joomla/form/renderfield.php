@@ -37,8 +37,10 @@ if (!$typeOfSpacer && $fieldType !== "Checkbox")
 {
 	$label = preg_replace('/class=\"([^\"]+)\"/i', 'class="col-sm-2 $1"', $label, 1);
 }
-
-$input = preg_replace('/class=\"([^\"]+)\"/i', 'class="form-control $1"', $input, 1);
+if ($fieldType !== "Captcha")
+{
+	$input = preg_replace('/class=\"([^\"]+)\"/i', 'class="form-control $1"', $input, 1);
+}
 ?>
 
 <div class="form-group">
@@ -52,6 +54,10 @@ $input = preg_replace('/class=\"([^\"]+)\"/i', 'class="form-control $1"', $input
 			<?php if (empty($options['hiddenLabel'])) : ?>
 				<?php echo $label; ?>
 			<?php endif; ?>
+        </div>
+	<?php elseif ($fieldType === "Captcha") : ?>
+        <div class="col-xs-12">
+			<?php echo $input; ?>
         </div>
 	<?php else: ?>
 		<?php if (empty($options['hiddenLabel'])) : ?>

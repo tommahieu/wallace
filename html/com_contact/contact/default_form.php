@@ -10,9 +10,14 @@
 defined('_JEXEC') or die;
 
 JHtml::_('behavior.keepalive');
-//JHtml::_('behavior.formvalidator');
+JHtml::_('behavior.formvalidator');
 
-?>
+if (isset($this->error)) : ?>
+    <div class="contact-error">
+		<?php echo $this->error; ?>
+    </div>
+<?php endif; ?>
+
 <form id="contact-form" action="<?php echo JRoute::_('index.php'); ?>" method="post"
       class="form-validate form-horizontal">
 	<?php foreach ($this->form->getFieldsets() as $fieldset): ?>
